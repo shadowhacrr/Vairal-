@@ -1,0 +1,39 @@
+{
+  "name": "viral-content-bot",
+  "version": "1.0.0",
+  "description": "Complete Viral Content Analysis Bot for Telegram",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "test": "echo "Error: no test specified" && exit 1"
+  },
+  "keywords": [
+    "telegram-bot",
+    "viral-content",
+    "trends",
+    "tiktok",
+    "youtube",
+    "instagram"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.15.6",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "cheerio": "^1.0.0-rc.12",
+    "node-cron": "^3.0.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "sqlite3": "^5.1.6",
+    "moment": "^2.29.4",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
